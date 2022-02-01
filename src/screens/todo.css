@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    padding-top: 50px;
+    background: url('../images/background3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91vh;
+}
+
+
+
+.main{
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px #f1f1f1;
+    width: 80%;
+    background-color: #f8f9fa;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #eff1f2;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-icon{
+    color: #007bff;
+    font-size: 40px;
+}
+
+.header-text{
+    font-size: 25px;
+    color: #0077ff;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.box{
+    margin-top: 30px;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    padding: 5px;
+    height: 34px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 2px #f1f1f1;
+}
+
+
+.input{
+    
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px;
+    /* height: 25px; */
+    text-indent: 10px;
+}
+
+/* .input-btn{
+    position: absolute;
+    top: 160px;
+    left: 530px;
+} */
+    
+.add-btn button{
+        border: none;
+    outline: none;
+    font-size: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 60px;
+    font-weight: bold;
+    color: #ffff;
+    background-color: #006bed;
+    border-radius: 4px;
+}
+
+                
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: #d1d5d6;
+    margin-top: 30px;
+}
+
+.list-container {
+    margin-top: 30px;
+}
+
+.listItem{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.done-icon{
+    color: green;
+    padding: 10px;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.done-icon:hover{
+    background-color: green;
+    color: white;
+}
+
+
+.action-box{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.action-box span{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edit-btn{
+    color: rgb(27, 144, 190);
+}
+
+.delete-btn{
+    color: red;
+}
